@@ -3,8 +3,8 @@ from databricks.sdk.service.jobs import RunLifeCycleState, RunResultState
 import time
 
 ws = WorkspaceClient(
-    host="https://dbc-d5c4f8c9-ca84.cloud.databricks.com",
-    token="dapi9b5387257410dc19edf5c3d4cc52e4c5"
+    host="hostname",
+    token="token_id"
 )
 
 # Trigger the job
